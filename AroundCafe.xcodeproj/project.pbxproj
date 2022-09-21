@@ -9,21 +9,51 @@
 /* Begin PBXBuildFile section */
 		B4726DD028DA8C75004BE4A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4726DCF28DA8C75004BE4A7 /* AppDelegate.swift */; };
 		B4726DD228DA8C75004BE4A7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4726DD128DA8C75004BE4A7 /* SceneDelegate.swift */; };
-		B4726DD428DA8C75004BE4A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4726DD328DA8C75004BE4A7 /* ViewController.swift */; };
-		B4726DD728DA8C75004BE4A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4726DD528DA8C75004BE4A7 /* Main.storyboard */; };
 		B4726DD928DA8C76004BE4A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4726DD828DA8C76004BE4A7 /* Assets.xcassets */; };
 		B4726DDC28DA8C76004BE4A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4726DDA28DA8C76004BE4A7 /* LaunchScreen.storyboard */; };
+		B4726DE728DA905B004BE4A7 /* DaumMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4726DE628DA905B004BE4A7 /* DaumMap.framework */; };
+		B4726DE928DA9078004BE4A7 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4726DE828DA9078004BE4A7 /* OpenGLES.framework */; };
+		B4726DEB28DA9081004BE4A7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4726DEA28DA9081004BE4A7 /* SystemConfiguration.framework */; };
+		B4726DED28DA908E004BE4A7 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4726DEC28DA908E004BE4A7 /* CoreLocation.framework */; };
+		B4726DEF28DA9094004BE4A7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4726DEE28DA9094004BE4A7 /* QuartzCore.framework */; };
+		B4726DF128DA90A1004BE4A7 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B4726DF028DA90A0004BE4A7 /* libc++.tbd */; };
+		B4726DF328DA90A8004BE4A7 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B4726DF228DA90A8004BE4A7 /* libxml2.tbd */; };
+		B4726DF528DA90AD004BE4A7 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B4726DF428DA90AD004BE4A7 /* libsqlite3.tbd */; };
+		B4726DF728DA93E5004BE4A7 /* LocationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4726DF628DA93E5004BE4A7 /* LocationData.swift */; };
+		B4726DF928DA9434004BE4A7 /* KLDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4726DF828DA9434004BE4A7 /* KLDocument.swift */; };
+		B4726DFC28DA94EC004BE4A7 /* DetailListCellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4726DFB28DA94EC004BE4A7 /* DetailListCellData.swift */; };
+		B4726DFE28DA9595004BE4A7 /* LocationInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4726DFD28DA9595004BE4A7 /* LocationInformationViewController.swift */; };
+		B4726E0128DA95CE004BE4A7 /* LocationInformationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4726E0028DA95CE004BE4A7 /* LocationInformationViewModel.swift */; };
+		B4726E0428DA96AC004BE4A7 /* RxBlocking in Frameworks */ = {isa = PBXBuildFile; productRef = B4726E0328DA96AC004BE4A7 /* RxBlocking */; };
+		B4726E0628DA96AC004BE4A7 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = B4726E0528DA96AC004BE4A7 /* RxCocoa */; };
+		B4726E0828DA96AC004BE4A7 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = B4726E0728DA96AC004BE4A7 /* RxRelay */; };
+		B4726E0A28DA96AC004BE4A7 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = B4726E0928DA96AC004BE4A7 /* RxSwift */; };
+		B4726E0C28DA96AC004BE4A7 /* RxTest in Frameworks */ = {isa = PBXBuildFile; productRef = B4726E0B28DA96AC004BE4A7 /* RxTest */; };
+		B4726E0F28DA96BF004BE4A7 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = B4726E0E28DA96BF004BE4A7 /* SnapKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B4726DCC28DA8C75004BE4A7 /* AroundCafe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AroundCafe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4726DCF28DA8C75004BE4A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B4726DD128DA8C75004BE4A7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B4726DD328DA8C75004BE4A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B4726DD628DA8C75004BE4A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B4726DD828DA8C76004BE4A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B4726DDB28DA8C76004BE4A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B4726DDD28DA8C76004BE4A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4726DE428DA8F0E004BE4A7 /* DaumMap.embeddedframework */ = {isa = PBXFileReference; lastKnownFileType = folder; path = DaumMap.embeddedframework; sourceTree = "<group>"; };
+		B4726DE528DA8F56004BE4A7 /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		B4726DE628DA905B004BE4A7 /* DaumMap.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DaumMap.framework; path = DaumMap.embeddedframework/DaumMap.framework; sourceTree = "<group>"; };
+		B4726DE828DA9078004BE4A7 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		B4726DEA28DA9081004BE4A7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B4726DEC28DA908E004BE4A7 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B4726DEE28DA9094004BE4A7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B4726DF028DA90A0004BE4A7 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		B4726DF228DA90A8004BE4A7 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		B4726DF428DA90AD004BE4A7 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		B4726DF628DA93E5004BE4A7 /* LocationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationData.swift; sourceTree = "<group>"; };
+		B4726DF828DA9434004BE4A7 /* KLDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLDocument.swift; sourceTree = "<group>"; };
+		B4726DFB28DA94EC004BE4A7 /* DetailListCellData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailListCellData.swift; sourceTree = "<group>"; };
+		B4726DFD28DA9595004BE4A7 /* LocationInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationInformationViewController.swift; sourceTree = "<group>"; };
+		B4726E0028DA95CE004BE4A7 /* LocationInformationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationInformationViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +61,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4726E0C28DA96AC004BE4A7 /* RxTest in Frameworks */,
+				B4726DF528DA90AD004BE4A7 /* libsqlite3.tbd in Frameworks */,
+				B4726E0428DA96AC004BE4A7 /* RxBlocking in Frameworks */,
+				B4726E0F28DA96BF004BE4A7 /* SnapKit in Frameworks */,
+				B4726E0628DA96AC004BE4A7 /* RxCocoa in Frameworks */,
+				B4726DF328DA90A8004BE4A7 /* libxml2.tbd in Frameworks */,
+				B4726DF128DA90A1004BE4A7 /* libc++.tbd in Frameworks */,
+				B4726DEF28DA9094004BE4A7 /* QuartzCore.framework in Frameworks */,
+				B4726E0A28DA96AC004BE4A7 /* RxSwift in Frameworks */,
+				B4726DED28DA908E004BE4A7 /* CoreLocation.framework in Frameworks */,
+				B4726DEB28DA9081004BE4A7 /* SystemConfiguration.framework in Frameworks */,
+				B4726DE928DA9078004BE4A7 /* OpenGLES.framework in Frameworks */,
+				B4726DE728DA905B004BE4A7 /* DaumMap.framework in Frameworks */,
+				B4726E0828DA96AC004BE4A7 /* RxRelay in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +86,7 @@
 			children = (
 				B4726DCE28DA8C75004BE4A7 /* AroundCafe */,
 				B4726DCD28DA8C75004BE4A7 /* Products */,
+				B4726DE328DA8F0E004BE4A7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +101,51 @@
 		B4726DCE28DA8C75004BE4A7 /* AroundCafe */ = {
 			isa = PBXGroup;
 			children = (
+				B4726DE528DA8F56004BE4A7 /* BridgingHeader.h */,
 				B4726DCF28DA8C75004BE4A7 /* AppDelegate.swift */,
 				B4726DD128DA8C75004BE4A7 /* SceneDelegate.swift */,
-				B4726DD328DA8C75004BE4A7 /* ViewController.swift */,
-				B4726DD528DA8C75004BE4A7 /* Main.storyboard */,
 				B4726DD828DA8C76004BE4A7 /* Assets.xcassets */,
 				B4726DDA28DA8C76004BE4A7 /* LaunchScreen.storyboard */,
 				B4726DDD28DA8C76004BE4A7 /* Info.plist */,
+				B4726DFA28DA943B004BE4A7 /* Entities */,
+				B4726DFF28DA959D004BE4A7 /* Presentation */,
 			);
 			path = AroundCafe;
+			sourceTree = "<group>";
+		};
+		B4726DE328DA8F0E004BE4A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4726DF428DA90AD004BE4A7 /* libsqlite3.tbd */,
+				B4726DF228DA90A8004BE4A7 /* libxml2.tbd */,
+				B4726DF028DA90A0004BE4A7 /* libc++.tbd */,
+				B4726DEE28DA9094004BE4A7 /* QuartzCore.framework */,
+				B4726DEC28DA908E004BE4A7 /* CoreLocation.framework */,
+				B4726DEA28DA9081004BE4A7 /* SystemConfiguration.framework */,
+				B4726DE828DA9078004BE4A7 /* OpenGLES.framework */,
+				B4726DE628DA905B004BE4A7 /* DaumMap.framework */,
+				B4726DE428DA8F0E004BE4A7 /* DaumMap.embeddedframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B4726DFA28DA943B004BE4A7 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				B4726DFB28DA94EC004BE4A7 /* DetailListCellData.swift */,
+				B4726DF628DA93E5004BE4A7 /* LocationData.swift */,
+				B4726DF828DA9434004BE4A7 /* KLDocument.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		B4726DFF28DA959D004BE4A7 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				B4726DFD28DA9595004BE4A7 /* LocationInformationViewController.swift */,
+				B4726E0028DA95CE004BE4A7 /* LocationInformationViewModel.swift */,
+			);
+			path = Presentation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +164,14 @@
 			dependencies = (
 			);
 			name = AroundCafe;
+			packageProductDependencies = (
+				B4726E0328DA96AC004BE4A7 /* RxBlocking */,
+				B4726E0528DA96AC004BE4A7 /* RxCocoa */,
+				B4726E0728DA96AC004BE4A7 /* RxRelay */,
+				B4726E0928DA96AC004BE4A7 /* RxSwift */,
+				B4726E0B28DA96AC004BE4A7 /* RxTest */,
+				B4726E0E28DA96BF004BE4A7 /* SnapKit */,
+			);
 			productName = AroundCafe;
 			productReference = B4726DCC28DA8C75004BE4A7 /* AroundCafe.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +200,10 @@
 				Base,
 			);
 			mainGroup = B4726DC328DA8C75004BE4A7;
+			packageReferences = (
+				B4726E0228DA96AC004BE4A7 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				B4726E0D28DA96BE004BE4A7 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = B4726DCD28DA8C75004BE4A7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +220,6 @@
 			files = (
 				B4726DDC28DA8C76004BE4A7 /* LaunchScreen.storyboard in Resources */,
 				B4726DD928DA8C76004BE4A7 /* Assets.xcassets in Resources */,
-				B4726DD728DA8C75004BE4A7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +230,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4726DD428DA8C75004BE4A7 /* ViewController.swift in Sources */,
+				B4726DF728DA93E5004BE4A7 /* LocationData.swift in Sources */,
+				B4726DF928DA9434004BE4A7 /* KLDocument.swift in Sources */,
+				B4726DFE28DA9595004BE4A7 /* LocationInformationViewController.swift in Sources */,
 				B4726DD028DA8C75004BE4A7 /* AppDelegate.swift in Sources */,
+				B4726DFC28DA94EC004BE4A7 /* DetailListCellData.swift in Sources */,
 				B4726DD228DA8C75004BE4A7 /* SceneDelegate.swift in Sources */,
+				B4726E0128DA95CE004BE4A7 /* LocationInformationViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B4726DD528DA8C75004BE4A7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B4726DD628DA8C75004BE4A7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B4726DDA28DA8C76004BE4A7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -174,7 +262,7 @@
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
@@ -222,6 +310,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/kup/Desktop/AroundCafe/AroundCafe/BridgingHeader.h;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -234,7 +323,7 @@
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
@@ -275,6 +364,7 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/kup/Desktop/AroundCafe/AroundCafe/BridgingHeader.h;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -288,11 +378,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = NMLQKC3L6A;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DaumMap.embeddedframework",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AroundCafe/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -316,11 +409,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = NMLQKC3L6A;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DaumMap.embeddedframework",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AroundCafe/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -358,6 +454,58 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B4726E0228DA96AC004BE4A7 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		B4726E0D28DA96BE004BE4A7 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B4726E0328DA96AC004BE4A7 /* RxBlocking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B4726E0228DA96AC004BE4A7 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxBlocking;
+		};
+		B4726E0528DA96AC004BE4A7 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B4726E0228DA96AC004BE4A7 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		B4726E0728DA96AC004BE4A7 /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B4726E0228DA96AC004BE4A7 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		B4726E0928DA96AC004BE4A7 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B4726E0228DA96AC004BE4A7 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		B4726E0B28DA96AC004BE4A7 /* RxTest */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B4726E0228DA96AC004BE4A7 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxTest;
+		};
+		B4726E0E28DA96BF004BE4A7 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B4726E0D28DA96BE004BE4A7 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B4726DC428DA8C75004BE4A7 /* Project object */;
 }
