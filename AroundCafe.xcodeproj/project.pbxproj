@@ -16,6 +16,9 @@
 		B413F76028DAC788002F9907 /* DetailListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B413F75F28DAC788002F9907 /* DetailListCell.swift */; };
 		B413F76228DAC9EB002F9907 /* DetailListBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B413F76128DAC9EB002F9907 /* DetailListBackgroundView.swift */; };
 		B413F76428DAC9F6002F9907 /* DetailListBackgroundViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B413F76328DAC9F6002F9907 /* DetailListBackgroundViewModel.swift */; };
+		B413F76628DAFA36002F9907 /* LocalAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B413F76528DAFA36002F9907 /* LocalAPI.swift */; };
+		B413F76928DAFB73002F9907 /* LocalNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = B413F76828DAFB73002F9907 /* LocalNetwork.swift */; };
+		B413F76B28DAFD5B002F9907 /* LocationInformationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B413F76A28DAFD5B002F9907 /* LocationInformationModel.swift */; };
 		B4726DD028DA8C75004BE4A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4726DCF28DA8C75004BE4A7 /* AppDelegate.swift */; };
 		B4726DD228DA8C75004BE4A7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4726DD128DA8C75004BE4A7 /* SceneDelegate.swift */; };
 		B4726DD928DA8C76004BE4A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4726DD828DA8C76004BE4A7 /* Assets.xcassets */; };
@@ -41,6 +44,9 @@
 		B413F75F28DAC788002F9907 /* DetailListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailListCell.swift; sourceTree = "<group>"; };
 		B413F76128DAC9EB002F9907 /* DetailListBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailListBackgroundView.swift; sourceTree = "<group>"; };
 		B413F76328DAC9F6002F9907 /* DetailListBackgroundViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailListBackgroundViewModel.swift; sourceTree = "<group>"; };
+		B413F76528DAFA36002F9907 /* LocalAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalAPI.swift; sourceTree = "<group>"; };
+		B413F76828DAFB73002F9907 /* LocalNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNetwork.swift; sourceTree = "<group>"; };
+		B413F76A28DAFD5B002F9907 /* LocationInformationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationInformationModel.swift; sourceTree = "<group>"; };
 		B4726DCC28DA8C75004BE4A7 /* AroundCafe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AroundCafe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4726DCF28DA8C75004BE4A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B4726DD128DA8C75004BE4A7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -88,6 +94,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B413F76728DAFA3D002F9907 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				B413F76528DAFA36002F9907 /* LocalAPI.swift */,
+				B413F76828DAFB73002F9907 /* LocalNetwork.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		B413F76C28DAFD64002F9907 /* LocationInfo */ = {
+			isa = PBXGroup;
+			children = (
+				B4726DFD28DA9595004BE4A7 /* LocationInformationViewController.swift */,
+				B4726E0028DA95CE004BE4A7 /* LocationInformationViewModel.swift */,
+				B413F76A28DAFD5B002F9907 /* LocationInformationModel.swift */,
+			);
+			path = LocationInfo;
+			sourceTree = "<group>";
+		};
 		B4726DC328DA8C75004BE4A7 = {
 			isa = PBXGroup;
 			children = (
@@ -114,6 +139,7 @@
 				B4726DD828DA8C76004BE4A7 /* Assets.xcassets */,
 				B4726DDA28DA8C76004BE4A7 /* LaunchScreen.storyboard */,
 				B4726DDD28DA8C76004BE4A7 /* Info.plist */,
+				B413F76728DAFA3D002F9907 /* Network */,
 				B4726DFA28DA943B004BE4A7 /* Entities */,
 				B4726DFF28DA959D004BE4A7 /* Presentation */,
 			);
@@ -151,8 +177,7 @@
 		B4726DFF28DA959D004BE4A7 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
-				B4726DFD28DA9595004BE4A7 /* LocationInformationViewController.swift */,
-				B4726E0028DA95CE004BE4A7 /* LocationInformationViewModel.swift */,
+				B413F76C28DAFD64002F9907 /* LocationInfo */,
 				B413F75F28DAC788002F9907 /* DetailListCell.swift */,
 				B413F76128DAC9EB002F9907 /* DetailListBackgroundView.swift */,
 				B413F76328DAC9F6002F9907 /* DetailListBackgroundViewModel.swift */,
@@ -245,11 +270,14 @@
 				B413F76228DAC9EB002F9907 /* DetailListBackgroundView.swift in Sources */,
 				B413F76428DAC9F6002F9907 /* DetailListBackgroundViewModel.swift in Sources */,
 				B4726DF928DA9434004BE4A7 /* KLDocument.swift in Sources */,
+				B413F76928DAFB73002F9907 /* LocalNetwork.swift in Sources */,
 				B4726DFE28DA9595004BE4A7 /* LocationInformationViewController.swift in Sources */,
 				B413F75E28DAA939002F9907 /* MTMapViewError.swift in Sources */,
+				B413F76628DAFA36002F9907 /* LocalAPI.swift in Sources */,
 				B413F76028DAC788002F9907 /* DetailListCell.swift in Sources */,
 				B4726DD028DA8C75004BE4A7 /* AppDelegate.swift in Sources */,
 				B4726DFC28DA94EC004BE4A7 /* DetailListCellData.swift in Sources */,
+				B413F76B28DAFD5B002F9907 /* LocationInformationModel.swift in Sources */,
 				B4726DD228DA8C75004BE4A7 /* SceneDelegate.swift in Sources */,
 				B4726E0128DA95CE004BE4A7 /* LocationInformationViewModel.swift in Sources */,
 			);
@@ -320,6 +348,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "내 주변의 카페 정보를 불러오려면 현재 위치가 필요합니다.";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -376,6 +405,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "내 주변의 카페 정보를 불러오려면 현재 위치가 필요합니다.";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
