@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B413F74F28DA9EE0002F9907 /* RxBlocking in Frameworks */ = {isa = PBXBuildFile; productRef = B413F74E28DA9EE0002F9907 /* RxBlocking */; };
+		B413F75128DA9EE0002F9907 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = B413F75028DA9EE0002F9907 /* RxCocoa */; };
+		B413F75328DA9EE1002F9907 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = B413F75228DA9EE1002F9907 /* RxRelay */; };
+		B413F75528DA9EE1002F9907 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = B413F75428DA9EE1002F9907 /* RxSwift */; };
+		B413F75C28DA9F9A002F9907 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = B413F75B28DA9F9A002F9907 /* SnapKit */; };
+		B413F75E28DAA939002F9907 /* MTMapViewError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B413F75D28DAA939002F9907 /* MTMapViewError.swift */; };
+		B413F76028DAC788002F9907 /* DetailListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B413F75F28DAC788002F9907 /* DetailListCell.swift */; };
+		B413F76228DAC9EB002F9907 /* DetailListBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B413F76128DAC9EB002F9907 /* DetailListBackgroundView.swift */; };
+		B413F76428DAC9F6002F9907 /* DetailListBackgroundViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B413F76328DAC9F6002F9907 /* DetailListBackgroundViewModel.swift */; };
 		B4726DD028DA8C75004BE4A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4726DCF28DA8C75004BE4A7 /* AppDelegate.swift */; };
 		B4726DD228DA8C75004BE4A7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4726DD128DA8C75004BE4A7 /* SceneDelegate.swift */; };
 		B4726DD928DA8C76004BE4A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4726DD828DA8C76004BE4A7 /* Assets.xcassets */; };
@@ -24,15 +33,14 @@
 		B4726DFC28DA94EC004BE4A7 /* DetailListCellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4726DFB28DA94EC004BE4A7 /* DetailListCellData.swift */; };
 		B4726DFE28DA9595004BE4A7 /* LocationInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4726DFD28DA9595004BE4A7 /* LocationInformationViewController.swift */; };
 		B4726E0128DA95CE004BE4A7 /* LocationInformationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4726E0028DA95CE004BE4A7 /* LocationInformationViewModel.swift */; };
-		B4726E0428DA96AC004BE4A7 /* RxBlocking in Frameworks */ = {isa = PBXBuildFile; productRef = B4726E0328DA96AC004BE4A7 /* RxBlocking */; };
-		B4726E0628DA96AC004BE4A7 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = B4726E0528DA96AC004BE4A7 /* RxCocoa */; };
-		B4726E0828DA96AC004BE4A7 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = B4726E0728DA96AC004BE4A7 /* RxRelay */; };
-		B4726E0A28DA96AC004BE4A7 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = B4726E0928DA96AC004BE4A7 /* RxSwift */; };
-		B4726E0C28DA96AC004BE4A7 /* RxTest in Frameworks */ = {isa = PBXBuildFile; productRef = B4726E0B28DA96AC004BE4A7 /* RxTest */; };
-		B4726E0F28DA96BF004BE4A7 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = B4726E0E28DA96BF004BE4A7 /* SnapKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B413F75828DA9F7B002F9907 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B413F75D28DAA939002F9907 /* MTMapViewError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTMapViewError.swift; sourceTree = "<group>"; };
+		B413F75F28DAC788002F9907 /* DetailListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailListCell.swift; sourceTree = "<group>"; };
+		B413F76128DAC9EB002F9907 /* DetailListBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailListBackgroundView.swift; sourceTree = "<group>"; };
+		B413F76328DAC9F6002F9907 /* DetailListBackgroundViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailListBackgroundViewModel.swift; sourceTree = "<group>"; };
 		B4726DCC28DA8C75004BE4A7 /* AroundCafe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AroundCafe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4726DCF28DA8C75004BE4A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B4726DD128DA8C75004BE4A7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,20 +69,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4726E0C28DA96AC004BE4A7 /* RxTest in Frameworks */,
 				B4726DF528DA90AD004BE4A7 /* libsqlite3.tbd in Frameworks */,
-				B4726E0428DA96AC004BE4A7 /* RxBlocking in Frameworks */,
-				B4726E0F28DA96BF004BE4A7 /* SnapKit in Frameworks */,
-				B4726E0628DA96AC004BE4A7 /* RxCocoa in Frameworks */,
+				B413F74F28DA9EE0002F9907 /* RxBlocking in Frameworks */,
+				B413F75128DA9EE0002F9907 /* RxCocoa in Frameworks */,
 				B4726DF328DA90A8004BE4A7 /* libxml2.tbd in Frameworks */,
 				B4726DF128DA90A1004BE4A7 /* libc++.tbd in Frameworks */,
 				B4726DEF28DA9094004BE4A7 /* QuartzCore.framework in Frameworks */,
-				B4726E0A28DA96AC004BE4A7 /* RxSwift in Frameworks */,
+				B413F75528DA9EE1002F9907 /* RxSwift in Frameworks */,
+				B413F75C28DA9F9A002F9907 /* SnapKit in Frameworks */,
 				B4726DED28DA908E004BE4A7 /* CoreLocation.framework in Frameworks */,
 				B4726DEB28DA9081004BE4A7 /* SystemConfiguration.framework in Frameworks */,
 				B4726DE928DA9078004BE4A7 /* OpenGLES.framework in Frameworks */,
 				B4726DE728DA905B004BE4A7 /* DaumMap.framework in Frameworks */,
-				B4726E0828DA96AC004BE4A7 /* RxRelay in Frameworks */,
+				B413F75328DA9EE1002F9907 /* RxRelay in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,6 +123,7 @@
 		B4726DE328DA8F0E004BE4A7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B413F75828DA9F7B002F9907 /* XCTest.framework */,
 				B4726DF428DA90AD004BE4A7 /* libsqlite3.tbd */,
 				B4726DF228DA90A8004BE4A7 /* libxml2.tbd */,
 				B4726DF028DA90A0004BE4A7 /* libc++.tbd */,
@@ -135,6 +143,7 @@
 				B4726DFB28DA94EC004BE4A7 /* DetailListCellData.swift */,
 				B4726DF628DA93E5004BE4A7 /* LocationData.swift */,
 				B4726DF828DA9434004BE4A7 /* KLDocument.swift */,
+				B413F75D28DAA939002F9907 /* MTMapViewError.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -144,6 +153,9 @@
 			children = (
 				B4726DFD28DA9595004BE4A7 /* LocationInformationViewController.swift */,
 				B4726E0028DA95CE004BE4A7 /* LocationInformationViewModel.swift */,
+				B413F75F28DAC788002F9907 /* DetailListCell.swift */,
+				B413F76128DAC9EB002F9907 /* DetailListBackgroundView.swift */,
+				B413F76328DAC9F6002F9907 /* DetailListBackgroundViewModel.swift */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -165,12 +177,11 @@
 			);
 			name = AroundCafe;
 			packageProductDependencies = (
-				B4726E0328DA96AC004BE4A7 /* RxBlocking */,
-				B4726E0528DA96AC004BE4A7 /* RxCocoa */,
-				B4726E0728DA96AC004BE4A7 /* RxRelay */,
-				B4726E0928DA96AC004BE4A7 /* RxSwift */,
-				B4726E0B28DA96AC004BE4A7 /* RxTest */,
-				B4726E0E28DA96BF004BE4A7 /* SnapKit */,
+				B413F74E28DA9EE0002F9907 /* RxBlocking */,
+				B413F75028DA9EE0002F9907 /* RxCocoa */,
+				B413F75228DA9EE1002F9907 /* RxRelay */,
+				B413F75428DA9EE1002F9907 /* RxSwift */,
+				B413F75B28DA9F9A002F9907 /* SnapKit */,
 			);
 			productName = AroundCafe;
 			productReference = B4726DCC28DA8C75004BE4A7 /* AroundCafe.app */;
@@ -201,8 +212,8 @@
 			);
 			mainGroup = B4726DC328DA8C75004BE4A7;
 			packageReferences = (
-				B4726E0228DA96AC004BE4A7 /* XCRemoteSwiftPackageReference "RxSwift" */,
-				B4726E0D28DA96BE004BE4A7 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				B413F74D28DA9EE0002F9907 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				B413F75A28DA9F9A002F9907 /* XCRemoteSwiftPackageReference "SnapKit" */,
 			);
 			productRefGroup = B4726DCD28DA8C75004BE4A7 /* Products */;
 			projectDirPath = "";
@@ -231,8 +242,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4726DF728DA93E5004BE4A7 /* LocationData.swift in Sources */,
+				B413F76228DAC9EB002F9907 /* DetailListBackgroundView.swift in Sources */,
+				B413F76428DAC9F6002F9907 /* DetailListBackgroundViewModel.swift in Sources */,
 				B4726DF928DA9434004BE4A7 /* KLDocument.swift in Sources */,
 				B4726DFE28DA9595004BE4A7 /* LocationInformationViewController.swift in Sources */,
+				B413F75E28DAA939002F9907 /* MTMapViewError.swift in Sources */,
+				B413F76028DAC788002F9907 /* DetailListCell.swift in Sources */,
 				B4726DD028DA8C75004BE4A7 /* AppDelegate.swift in Sources */,
 				B4726DFC28DA94EC004BE4A7 /* DetailListCellData.swift in Sources */,
 				B4726DD228DA8C75004BE4A7 /* SceneDelegate.swift in Sources */,
@@ -290,6 +305,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_TESTING_SEARCH_PATHS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -351,6 +367,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTING_SEARCH_PATHS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -378,6 +395,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = NMLQKC3L6A;
+				EXCLUDED_ARCHS = arm64;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/DaumMap.embeddedframework",
@@ -386,6 +404,7 @@
 				INFOPLIST_FILE = AroundCafe/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -409,6 +428,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = NMLQKC3L6A;
+				EXCLUDED_ARCHS = arm64;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/DaumMap.embeddedframework",
@@ -417,6 +437,7 @@
 				INFOPLIST_FILE = AroundCafe/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -456,7 +477,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		B4726E0228DA96AC004BE4A7 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+		B413F74D28DA9EE0002F9907 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/ReactiveX/RxSwift";
 			requirement = {
@@ -464,7 +485,7 @@
 				kind = branch;
 			};
 		};
-		B4726E0D28DA96BE004BE4A7 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+		B413F75A28DA9F9A002F9907 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SnapKit/SnapKit";
 			requirement = {
@@ -475,34 +496,29 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		B4726E0328DA96AC004BE4A7 /* RxBlocking */ = {
+		B413F74E28DA9EE0002F9907 /* RxBlocking */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = B4726E0228DA96AC004BE4A7 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			package = B413F74D28DA9EE0002F9907 /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = RxBlocking;
 		};
-		B4726E0528DA96AC004BE4A7 /* RxCocoa */ = {
+		B413F75028DA9EE0002F9907 /* RxCocoa */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = B4726E0228DA96AC004BE4A7 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			package = B413F74D28DA9EE0002F9907 /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = RxCocoa;
 		};
-		B4726E0728DA96AC004BE4A7 /* RxRelay */ = {
+		B413F75228DA9EE1002F9907 /* RxRelay */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = B4726E0228DA96AC004BE4A7 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			package = B413F74D28DA9EE0002F9907 /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = RxRelay;
 		};
-		B4726E0928DA96AC004BE4A7 /* RxSwift */ = {
+		B413F75428DA9EE1002F9907 /* RxSwift */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = B4726E0228DA96AC004BE4A7 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			package = B413F74D28DA9EE0002F9907 /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = RxSwift;
 		};
-		B4726E0B28DA96AC004BE4A7 /* RxTest */ = {
+		B413F75B28DA9F9A002F9907 /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = B4726E0228DA96AC004BE4A7 /* XCRemoteSwiftPackageReference "RxSwift" */;
-			productName = RxTest;
-		};
-		B4726E0E28DA96BF004BE4A7 /* SnapKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = B4726E0D28DA96BE004BE4A7 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			package = B413F75A28DA9F9A002F9907 /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
 		};
 /* End XCSwiftPackageProductDependency section */

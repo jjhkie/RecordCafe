@@ -1,9 +1,3 @@
-//
-//  AppDelegate.swift
-//  AroundCafe
-//
-//  Created by kup on 2022/09/21.
-//
 
 import UIKit
 
