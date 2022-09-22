@@ -14,11 +14,11 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         self.window = UIWindow(windowScene: windowScene)
         
-        let root = LocationInformationViewController()
+        let root = RootTabController()
         
         //root.bind(viewModel)
         
-        window?.rootViewController = UINavigationController(rootViewController: root)
+        window?.rootViewController = root
         window?.makeKeyAndVisible()
     }
 

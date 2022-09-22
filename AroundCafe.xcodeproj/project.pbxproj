@@ -36,7 +36,23 @@
 		B4726DFC28DA94EC004BE4A7 /* DetailListCellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4726DFB28DA94EC004BE4A7 /* DetailListCellData.swift */; };
 		B4726DFE28DA9595004BE4A7 /* LocationInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4726DFD28DA9595004BE4A7 /* LocationInformationViewController.swift */; };
 		B4726E0128DA95CE004BE4A7 /* LocationInformationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4726E0028DA95CE004BE4A7 /* LocationInformationViewModel.swift */; };
+		B4ADE16B28DBE02000F9CD86 /* LocalNetworkStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4ADE16A28DBE02000F9CD86 /* LocalNetworkStub.swift */; };
+		B4ADE1A128DC01A000F9CD86 /* RootTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4ADE1A028DC01A000F9CD86 /* RootTabController.swift */; };
+		B4ADE1A328DC032A00F9CD86 /* RecordInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4ADE1A228DC032A00F9CD86 /* RecordInformationViewController.swift */; };
+		B4ADE1A628DC1DE600F9CD86 /* RecordData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4ADE1A528DC1DE600F9CD86 /* RecordData.swift */; };
+		B4ADE1A828DC1FC800F9CD86 /* RecordInformationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4ADE1A728DC1FC800F9CD86 /* RecordInformationViewModel.swift */; };
+		B4ADE1AA28DC2C0300F9CD86 /* RecordViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4ADE1A928DC2C0300F9CD86 /* RecordViewCell.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B4ADE16528DBDFE900F9CD86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4726DC428DA8C75004BE4A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4726DCB28DA8C75004BE4A7;
+			remoteInfo = AroundCafe;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		B413F75828DA9F7B002F9907 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -68,6 +84,13 @@
 		B4726DFB28DA94EC004BE4A7 /* DetailListCellData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailListCellData.swift; sourceTree = "<group>"; };
 		B4726DFD28DA9595004BE4A7 /* LocationInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationInformationViewController.swift; sourceTree = "<group>"; };
 		B4726E0028DA95CE004BE4A7 /* LocationInformationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationInformationViewModel.swift; sourceTree = "<group>"; };
+		B4ADE16128DBDFE900F9CD86 /* AroundCafeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AroundCafeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4ADE16A28DBE02000F9CD86 /* LocalNetworkStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNetworkStub.swift; sourceTree = "<group>"; };
+		B4ADE1A028DC01A000F9CD86 /* RootTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabController.swift; sourceTree = "<group>"; };
+		B4ADE1A228DC032A00F9CD86 /* RecordInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordInformationViewController.swift; sourceTree = "<group>"; };
+		B4ADE1A528DC1DE600F9CD86 /* RecordData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordData.swift; sourceTree = "<group>"; };
+		B4ADE1A728DC1FC800F9CD86 /* RecordInformationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordInformationViewModel.swift; sourceTree = "<group>"; };
+		B4ADE1A928DC2C0300F9CD86 /* RecordViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +111,13 @@
 				B4726DE928DA9078004BE4A7 /* OpenGLES.framework in Frameworks */,
 				B4726DE728DA905B004BE4A7 /* DaumMap.framework in Frameworks */,
 				B413F75328DA9EE1002F9907 /* RxRelay in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4ADE15E28DBDFE900F9CD86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,6 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				B4726DCE28DA8C75004BE4A7 /* AroundCafe */,
+				B4ADE16228DBDFE900F9CD86 /* AroundCafeTests */,
 				B4726DCD28DA8C75004BE4A7 /* Products */,
 				B4726DE328DA8F0E004BE4A7 /* Frameworks */,
 			);
@@ -126,6 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				B4726DCC28DA8C75004BE4A7 /* AroundCafe.app */,
+				B4ADE16128DBDFE900F9CD86 /* AroundCafeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -170,6 +202,7 @@
 				B4726DF628DA93E5004BE4A7 /* LocationData.swift */,
 				B4726DF828DA9434004BE4A7 /* KLDocument.swift */,
 				B413F75D28DAA939002F9907 /* MTMapViewError.swift */,
+				B4ADE1A528DC1DE600F9CD86 /* RecordData.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -177,12 +210,40 @@
 		B4726DFF28DA959D004BE4A7 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				B4ADE1A028DC01A000F9CD86 /* RootTabController.swift */,
+				B4ADE1A428DC032E00F9CD86 /* RecordInfo */,
 				B413F76C28DAFD64002F9907 /* LocationInfo */,
+				B4ADE19F28DC003800F9CD86 /* DetailList */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		B4ADE16228DBDFE900F9CD86 /* AroundCafeTests */ = {
+			isa = PBXGroup;
+			children = (
+				B4ADE16A28DBE02000F9CD86 /* LocalNetworkStub.swift */,
+			);
+			path = AroundCafeTests;
+			sourceTree = "<group>";
+		};
+		B4ADE19F28DC003800F9CD86 /* DetailList */ = {
+			isa = PBXGroup;
+			children = (
 				B413F75F28DAC788002F9907 /* DetailListCell.swift */,
 				B413F76128DAC9EB002F9907 /* DetailListBackgroundView.swift */,
 				B413F76328DAC9F6002F9907 /* DetailListBackgroundViewModel.swift */,
 			);
-			path = Presentation;
+			path = DetailList;
+			sourceTree = "<group>";
+		};
+		B4ADE1A428DC032E00F9CD86 /* RecordInfo */ = {
+			isa = PBXGroup;
+			children = (
+				B4ADE1A228DC032A00F9CD86 /* RecordInformationViewController.swift */,
+				B4ADE1A728DC1FC800F9CD86 /* RecordInformationViewModel.swift */,
+				B4ADE1A928DC2C0300F9CD86 /* RecordViewCell.swift */,
+			);
+			path = RecordInfo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +273,24 @@
 			productReference = B4726DCC28DA8C75004BE4A7 /* AroundCafe.app */;
 			productType = "com.apple.product-type.application";
 		};
+		B4ADE16028DBDFE900F9CD86 /* AroundCafeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4ADE16928DBDFE900F9CD86 /* Build configuration list for PBXNativeTarget "AroundCafeTests" */;
+			buildPhases = (
+				B4ADE15D28DBDFE900F9CD86 /* Sources */,
+				B4ADE15E28DBDFE900F9CD86 /* Frameworks */,
+				B4ADE15F28DBDFE900F9CD86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4ADE16628DBDFE900F9CD86 /* PBXTargetDependency */,
+			);
+			name = AroundCafeTests;
+			productName = AroundCafeTests;
+			productReference = B4ADE16128DBDFE900F9CD86 /* AroundCafeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -224,6 +303,11 @@
 				TargetAttributes = {
 					B4726DCB28DA8C75004BE4A7 = {
 						CreatedOnToolsVersion = 14.0;
+					};
+					B4ADE16028DBDFE900F9CD86 = {
+						CreatedOnToolsVersion = 14.0;
+						LastSwiftMigration = 1400;
+						TestTargetID = B4726DCB28DA8C75004BE4A7;
 					};
 				};
 			};
@@ -245,6 +329,7 @@
 			projectRoot = "";
 			targets = (
 				B4726DCB28DA8C75004BE4A7 /* AroundCafe */,
+				B4ADE16028DBDFE900F9CD86 /* AroundCafeTests */,
 			);
 		};
 /* End PBXProject section */
@@ -259,6 +344,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B4ADE15F28DBDFE900F9CD86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -268,11 +360,16 @@
 			files = (
 				B4726DF728DA93E5004BE4A7 /* LocationData.swift in Sources */,
 				B413F76228DAC9EB002F9907 /* DetailListBackgroundView.swift in Sources */,
+				B4ADE1AA28DC2C0300F9CD86 /* RecordViewCell.swift in Sources */,
+				B4ADE1A828DC1FC800F9CD86 /* RecordInformationViewModel.swift in Sources */,
 				B413F76428DAC9F6002F9907 /* DetailListBackgroundViewModel.swift in Sources */,
 				B4726DF928DA9434004BE4A7 /* KLDocument.swift in Sources */,
+				B4ADE1A628DC1DE600F9CD86 /* RecordData.swift in Sources */,
+				B4ADE1A328DC032A00F9CD86 /* RecordInformationViewController.swift in Sources */,
 				B413F76928DAFB73002F9907 /* LocalNetwork.swift in Sources */,
 				B4726DFE28DA9595004BE4A7 /* LocationInformationViewController.swift in Sources */,
 				B413F75E28DAA939002F9907 /* MTMapViewError.swift in Sources */,
+				B4ADE1A128DC01A000F9CD86 /* RootTabController.swift in Sources */,
 				B413F76628DAFA36002F9907 /* LocalAPI.swift in Sources */,
 				B413F76028DAC788002F9907 /* DetailListCell.swift in Sources */,
 				B4726DD028DA8C75004BE4A7 /* AppDelegate.swift in Sources */,
@@ -283,7 +380,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B4ADE15D28DBDFE900F9CD86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4ADE16B28DBE02000F9CD86 /* LocalNetworkStub.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B4ADE16628DBDFE900F9CD86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4726DCB28DA8C75004BE4A7 /* AroundCafe */;
+			targetProxy = B4ADE16528DBDFE900F9CD86 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		B4726DDA28DA8C76004BE4A7 /* LaunchScreen.storyboard */ = {
@@ -483,6 +596,57 @@
 			};
 			name = Release;
 		};
+		B4ADE16728DBDFE900F9CD86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NMLQKC3L6A;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hylee.AroundCafeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AroundCafe.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AroundCafe";
+			};
+			name = Debug;
+		};
+		B4ADE16828DBDFE900F9CD86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NMLQKC3L6A;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hylee.AroundCafeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AroundCafe.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AroundCafe";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -500,6 +664,15 @@
 			buildConfigurations = (
 				B4726DE128DA8C76004BE4A7 /* Debug */,
 				B4726DE228DA8C76004BE4A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4ADE16928DBDFE900F9CD86 /* Build configuration list for PBXNativeTarget "AroundCafeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4ADE16728DBDFE900F9CD86 /* Debug */,
+				B4ADE16828DBDFE900F9CD86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
